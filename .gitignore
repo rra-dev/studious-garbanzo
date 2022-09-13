@@ -5,3 +5,6 @@ rsc/
 
 *.xmind
 
+# Ignore obsidian workspace
+
+.obsidian/workspace
