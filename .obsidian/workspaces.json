@@ -1,0 +1,174 @@
+{
+  "workspaces": {
+    "Based": {
+      "main": {
+        "id": "c9ef89fa4e01bac9",
+        "type": "split",
+        "children": [
+          {
+            "id": "cb54100c4902b9f6",
+            "type": "split",
+            "children": [
+              {
+                "id": "253214988f44a61d",
+                "type": "leaf",
+                "state": {
+                  "type": "kanban",
+                  "state": {
+                    "file": "KanBean.md"
+                  }
+                }
+              },
+              {
+                "id": "d97e3c7b11dc6d0d",
+                "type": "split",
+                "children": [
+                  {
+                    "id": "ba3be6881313e695",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "README.md",
+                        "mode": "source",
+                        "backlinks": true,
+                        "source": true
+                      }
+                    }
+                  },
+                  {
+                    "id": "d1db6d73c3059c42",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Resbasedrev.md",
+                        "mode": "source",
+                        "backlinks": true,
+                        "source": true
+                      }
+                    }
+                  }
+                ],
+                "direction": "vertical"
+              }
+            ],
+            "direction": "horizontal"
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "b59d0a82fe95c321",
+        "type": "split",
+        "children": [
+          {
+            "id": "22607c04d6541bb6",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9cc6a5605d10766e",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "cfe46f74e6cce96c",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#FW",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "2e127f57ecb2cdcd",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "right": {
+        "id": "9abeb7e6fc551043",
+        "type": "split",
+        "children": [
+          {
+            "id": "ab311d8d002860c7",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d72dba239b3efb53",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "KanBean.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "9a0d6193135cf9f1",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "KanBean.md",
+                    "linksCollapsed": true,
+                    "unlinkedCollapsed": false
+                  }
+                }
+              },
+              {
+                "id": "604db88bef6b8357",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "46562e0d500e4d0e",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "KanBean.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 218.5
+      },
+      "active": "253214988f44a61d"
+    }
+  },
+  "active": "Based"
+}

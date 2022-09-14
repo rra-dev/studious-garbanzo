@@ -1,0 +1,44 @@
+{
+  "confirmDeletion": true,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [],
+  "fileMenu": [
+    {
+      "id": "obsidian-shellcommands:shell-command-rah7on78wf",
+      "icon": "code-2",
+      "name": "Open in VSCode",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-shellcommands:shell-command-0lncanifcf",
+      "icon": "network",
+      "name": "Open in Xmind",
+      "mode": "any"
+    }
+  ],
+  "leftRibbon": [
+    {
+      "id": "obsidian-shellcommands:shell-command-3jukbky0m3",
+      "icon": "codepen",
+      "name": "studious-garbanzo",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-shellcommands:shell-command-qcc65ocrpb",
+      "icon": "file-code",
+      "name": "Learn Vim the Hardway",
+      "mode": "any"
+    }
+  ],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [],
+  "macros": [],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": []
+  },
+  "spacing": 8
+}

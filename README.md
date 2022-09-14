@@ -1,23 +1,25 @@
 # studious-garbanzo
 Changing this to be more general studying and notes
 
-## Todo
+## Todo -> moved to -> [KanBean](KanBean.md)
+```
+This section was initially used for Todos now please refer to KanBean
+```
+1. Figure out branching in git -> [Issue 21 ](obsidian://shell-commands/?vault=studious-garbanzo&execute=262pfp9ome&_gh_repo1=rra-dev/studious-garbanzo&_gh_issue9=1)
 
-1. Figure out branching in git
-2. document more
 
 ## Notes
 
-### 220824
+### 20220824
  - [Threat Modeling(xmind)](/../AMS2208-ThreatModeling.xmind)
     - Working through OWASP Structured Threat Modeling
 
-### 220825
+### 20220825
  - [Threat Modeling(xmind)](/../AMS2208-ThreatModeling.xmind) notes on
 [OWASP Structured Threat Modeling](https://owasp.org/www-community/Threat_Modeling_Process)
  - 13 Issues on studious-garbanzo for questions
 
-### 220829
+### 20220829
  - [Threat Modeling(xmind)](/../AMS2208-ThreatModeling.xmind) notes on [Microsoft Security Development Lifecycle (SDL)](https://www.microsoft.com/en-us/securityengineering/sdl)
     - Reviewed 2 downloads from Microsoft (MSFT) regarding SDL
         [Download from MSFT](https://go.microsoft.com/?linkid=9708425)
@@ -27,7 +29,10 @@ Changing this to be more general studying and notes
 
  - ~~[Threat Modeling(xmind)](/../AMS2208-ThreatModeling.xmind) changed location to studious-garbanzo/AMS2208-ThreatModeling.xmind~~ Revert
 
-### 
+### 20220913
+- Using Obisidian for note taking and some movement
+[Threat Modeling (xmind new format)](obsidian://shell-commands/?vault=studious-garbanzo&execute=0lncanifcf&_xmind5=/home/renn/Documents/AMS2208-ThreatModeling.xmind)
+- Added all gh issues to [KanBean](KanBean.md)
 
 #### Threat Modeling URLs Todos
 ```

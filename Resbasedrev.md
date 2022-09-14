@@ -1,5 +1,5 @@
 # Resume Based Learning Review
-Last updated 20220912
+Last updated 20220913 - All added to learning Kanban [KanBean](KanBean.md)
 ## Skills
 [P] Cylance Protect Anti-Virus Administration
 [P] [Network Security Auditing, vendor neutral](NetSecAuditing.md)
@@ -12,9 +12,8 @@ Last updated 20220912
 [P] [Incident Response](IRnotes.md) and [Information Gathering](RXnotes.md) Tools
 [B] [KACE](KanBean.md#^uuu36c) Unified Endpoint Management
 [P] [Windows Administration](MSnotes.md)
-[ ] Addigy (macOS Endpoint Solution)
-[ ] macOS Client Provisioning
-[ ] ZenGRC (Integrated Risk Management Solution)
+[P] [macOS Administration](macadnotes.md) 
+[Da] ZenGRC (Integrated Risk Management Solution)
 [ ] WordPress Monitoring and Usage
 [ ] Wordfence Administration
 [ ] Salesforce Monitoring and Usage

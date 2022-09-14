@@ -1,4 +1,6 @@
 [
   "obsidian-kanban",
-  "obsidian-vimrc-support"
+  "obsidian-vimrc-support",
+  "obsidian-shellcommands",
+  "cmdr"
 ]
