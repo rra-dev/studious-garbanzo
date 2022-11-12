@@ -1,0 +1,41 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+
+  <p id="description">Ipso facto</p>
+
+  <form id="survey-form">
+    <label id="name-label">Name <input id="name" required type="text" placeholder="name"></label>
+    <label id="email-label">Email <input id="email" required type="email" placeholder="email"></label>
+    <label id="number-label">Number <input id="number" required type="number" min="0" max="52" placeholder="number"></label>
+    <select id="dropdown">
+      <option>Fuck</option>
+      <option>Marry</option>
+      <option>Kill</option>
+
+    </select>
+    <input type="radio" name="blash" value="ding">
+    <input type="radio" name="blash" value="dong">
+    <input type="checkbox" value="fuck">
+    <input type="checkbox" value="fuck2">
+    <textarea ></textarea>
+    <input type="submit" id="submit">
+
+  </form>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+

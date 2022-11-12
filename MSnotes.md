@@ -1,4 +1,12 @@
-# Windows Administration Notes #RBR 
+---
+tags:
+ - MS
+ - todo
+ - IAM
+ - MFA
+ - RBR/MS
+---
+# Windows Administration Notes 
 [ ] Windows Patching
 [ ] Windows Server Administration
 [ ] Azure Active Directory
@@ -6,3 +14,5 @@
 [ ] Active Directory Administration & Auditing
 [ ] Group Policy Administration & Auditing
 [ ] Office 365 Administration & Auditing
+[ ] Powershell review
+[ ] Update for unified #todo

@@ -1,3 +1,9 @@
+---
+tags:
+ - RBR
+---
+
+
 # Resume Based Learning Review
 Last updated 20220913 - All added to learning Kanban [KanBean](KanBean.md)
 ## Skills

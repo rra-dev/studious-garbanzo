@@ -3,5 +3,6 @@
   "textFontFamily": "Hack",
   "monospaceFontFamily": "Hack",
   "baseFontSize": 12,
-  "cssTheme": "Dracula Official"
+  "cssTheme": "Dracula Official",
+  "accentColor": ""
 }

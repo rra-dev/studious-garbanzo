@@ -1,0 +1,244 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Technical Documentation <span>Lorem Ipsum</span></header>
+      <ul>
+        <li><a class="nav-link" href="#Topic_1">Topic 1</a></li>
+        <li><a class="nav-link" href="#varius">varius</a></li>
+        <li><a class="nav-link" href="#duis_at">duis at</a></li>
+        <li><a class="nav-link" href="#consectetur">consectetur</a></li>
+        <li><a class="nav-link" href="#lorem">lorem</a></li>
+      </ul>
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="Topic_1">
+      
+        <header>Topic 1</header>
+        <p>p element</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ante in nibh mauris cursus mattis molestie. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. In hendrerit gravida rutrum quisque non tellus orci ac auctor. Diam quis enim lobortis scelerisque fermentum dui faucibus in. Erat nam at lectus urna duis convallis convallis tellus. Erat pellentesque adipiscing commodo elit. Nisl condimentum id venenatis a. Lacus laoreet non curabitur gravida arcu ac tortor dignissim. Ultricies integer quis auctor elit sed vulputate mi sit amet. Aliquet risus feugiat in ante metus dictum. Lobortis scelerisque fermentum dui faucibus in. Pulvinar etiam non quam lacus suspendisse.</p>
+        <p>p element</p>
+        <p>Eu sem integer vitae justo eget magna. In massa tempor nec feugiat nisl pretium fusce id velit. Enim ut sem viverra aliquet eget. Nulla facilisi nullam vehicula ipsum a arcu. Viverra accumsan in nisl nisi. Mattis molestie a iaculis at erat pellentesque adipiscing commodo elit. Ac auctor augue mauris augue neque gravida. Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare. Tincidunt vitae semper quis lectus nulla. Viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis. Placerat in egestas erat imperdiet. Consectetur purus ut faucibus pulvinar elementum integer enim.</p>
+        <code>if (condition) { statement_1_runs_if_condition_is_true;
+            statement_2_runs_if_condition_is_true; } else {
+            statement_3_runs_if_condition_is_false;
+            statement_4_runs_if_condition_is_false; }
+        </code>
+        <ul>
+          <header id="list_header">List</header>
+          <li>list item</li>
+          <li>list item</li>
+          <li>list item</li>
+          <li>list item</li>
+          <li>list item</li>
+        </ul>
+
+      </section>
+      <section class="main-section" id="varius" >
+        <header>varius</header>
+        <p>Habitant morbi tristique senectus et netus et. Nulla porttitor massa id neque aliquam vestibulum morbi blandit. Vulputate ut pharetra sit amet aliquam. Placerat vestibulum lectus mauris ultrices eros in cursus turpis. Cras adipiscing enim eu turpis egestas pretium aenean pharetra. Sit amet consectetur adipiscing elit pellentesque habitant. Scelerisque eu ultrices vitae auctor. Cursus in hac habitasse platea dictumst quisque sagittis. Dictumst quisque sagittis purus sit amet volutpat consequat mauris. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula. Velit scelerisque in dictum non consectetur a. Tellus in metus vulputate eu scelerisque felis. Consequat id porta nibh venenatis cras sed felis eget velit. Id donec ultrices tincidunt arcu. Risus ultricies tristique nulla aliquet enim tortor. Ac tortor dignissim convallis aenean et tortor at risus viverra. Augue eget arcu dictum varius duis at. Dui nunc mattis enim ut tellus elementum sagittis vitae et. Posuere sollicitudin aliquam ultrices sagittis orci. Nunc congue nisi vitae suscipit tellus mauris a diam maecenas.</p>
+        <p>Bibendum at varius vel pharetra vel turpis nunc eget lorem. Arcu risus quis varius quam quisque id diam vel. Amet tellus cras adipiscing enim eu turpis egestas pretium. Vulputate eu scelerisque felis imperdiet proin fermentum. Nisi scelerisque eu ultrices vitae auctor eu augue ut. Vitae congue mauris rhoncus aenean vel elit scelerisque mauris. Non tellus orci ac auctor. Morbi tempus iaculis urna id volutpat. Vestibulum rhoncus est pellentesque elit. In arcu cursus euismod quis viverra nibh. Turpis massa tincidunt dui ut ornare. Amet nisl purus in mollis nunc sed id. Egestas dui id ornare arcu odio ut sem. Nullam ac tortor vitae purus faucibus. Molestie a iaculis at erat pellentesque adipiscing commodo elit at. Volutpat consequat mauris nunc congue.</p>
+        <code>a = 33
+b = 200
+if b > a:
+  print("b is greater than a")</code>
+      </section>
+      <section class="main-section" id="duis_at">
+        <header>duis at</header>
+        <p>Maecenas sed enim ut sem viverra aliquet eget sit. Arcu cursus vitae congue mauris rhoncus aenean vel. Sit amet luctus venenatis lectus magna. Eleifend mi in nulla posuere. Eget arcu dictum varius duis at consectetur lorem donec. At risus viverra adipiscing at in tellus integer feugiat scelerisque. Ut pharetra sit amet aliquam id diam maecenas ultricies. Consequat interdum varius sit amet mattis vulputate enim. Rutrum quisque non tellus orci. Vulputate odio ut enim blandit. Viverra justo nec ultrices dui sapien.</p>
+        <p>Viverra nam libero justo laoreet sit. Mauris vitae ultricies leo integer malesuada. Tincidunt id aliquet risus feugiat. Turpis tincidunt id aliquet risus feugiat in ante. Et sollicitudin ac orci phasellus egestas. Quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Enim blandit volutpat maecenas volutpat blandit aliquam etiam erat. Adipiscing elit ut aliquam purus sit. Vitae auctor eu augue ut lectus arcu bibendum at. Consectetur adipiscing elit pellentesque habitant morbi tristique.</p>
+        <code>
+          int x = 20;
+int y = 18;
+if (x > y) {
+  System.out.println("x is greater than y");
+}
+        </code>
+      </section>
+      <section class="main-section" id="consectetur" >
+        <header>consectetur</header>
+        <p>Magna sit amet purus gravida quis blandit turpis cursus. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus. Sit amet aliquam id diam. In metus vulputate eu scelerisque. Feugiat nisl pretium fusce id velit. Commodo nulla facilisi nullam vehicula ipsum. At ultrices mi tempus imperdiet nulla. Lobortis elementum nibh tellus molestie nunc non blandit massa enim. Arcu dictum varius duis at consectetur lorem donec. Magna fermentum iaculis eu non diam phasellus. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus et. Ipsum dolor sit amet consectetur adipiscing. Leo duis ut diam quam nulla porttitor massa id. Leo vel orci porta non pulvinar neque laoreet suspendisse interdum. Egestas erat imperdiet sed euismod. Dui ut ornare lectus sit amet.</p>
+        <p>Mi eget mauris pharetra et. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Senectus et netus et malesuada fames. Sem et tortor consequat id porta nibh. Mattis ullamcorper velit sed ullamcorper morbi. Suspendisse potenti nullam ac tortor. Arcu non odio euismod lacinia at quis risus sed. Amet porttitor eget dolor morbi non. Quisque non tellus orci ac auctor. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam.</p>
+        <code> &lt?php
+$t = date("H");
+if ($t < "20") {
+  echo "Have a good day!";
+} else {
+  echo "Have a good night!";
+}?&gt </code>
+      </section>
+      <section class="main-section" id="lorem" />
+        <header>lorem</header>
+        <p>Congue quisque egestas diam in arcu cursus euismod quis viverra. Elit eget gravida cum sociis natoque penatibus et magnis dis. Sit amet est placerat in egestas erat imperdiet sed euismod. Posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Urna nec tincidunt praesent semper feugiat nibh. Purus viverra accumsan in nisl nisi scelerisque. Volutpat blandit aliquam etiam erat velit scelerisque in. Eget dolor morbi non arcu risus quis varius quam. Auctor eu augue ut lectus. Consequat nisl vel pretium lectus quam id leo in vitae. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae. Erat velit scelerisque in dictum non consectetur. Porttitor lacus luctus accumsan tortor posuere ac ut consequat semper. Sem fringilla ut morbi tincidunt augue interdum velit euismod.</p>
+        <p>Habitant morbi tristique senectus et netus et malesuada fames ac. Venenatis urna cursus eget nunc scelerisque viverra mauris. Cum sociis natoque penatibus et magnis dis parturient. Morbi tristique senectus et netus et. Ac orci phasellus egestas tellus rutrum. Ut aliquam purus sit amet luctus venenatis lectus. Egestas fringilla phasellus faucibus scelerisque eleifend donec. Velit dignissim sodales ut eu. Mauris nunc congue nisi vitae suscipit. Porttitor eget dolor morbi non arcu risus quis.</p>
+        <code>
+          switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+}
+        </code>
+      </section>
+    </main>
+    
+    <span class="return_2_top" href="#Topic_1">Return to Top</span>
+    
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+html, body {
+  color: ##212121;
+  background-color: #ff5722;
+  font-family: 'Open Sans', Arial, san-serif;
+  line-height: 1.25;
+  
+}
+#navbar {
+  position: fixed;
+background-color: #ff7043;
+  width:370px;
+  height:100%;
+  top:0;
+  left:0;
+  border-right:solid;
+  border-color:#757575;
+  font-size: 1.5em;
+}
+#navbar ul{
+  height:88%;
+  padding:0;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+#navbar li {
+  border-top: 1px solid;
+  list-style: none;
+  
+}
+#navbar li:last-of-type{
+  border-bottom: 1px solid;
+}
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  text-decoration: none;
+  width:100%;
+}
+header {
+  color: black;
+  margin: 10px;
+  text-align: left;
+  font-size: 2em;
+  font-weight: bold;
+}
+header span{
+  font-size:.5em;
+}
+
+main header{
+  text-align: center;
+  margin:20px;
+}
+
+#list_header {
+  font-size: 1.15em;
+  text-align: left;
+}
+
+#main-doc {
+  position:absolute;
+  margin-left:390px;
+  padding: 20px;
+  margin-bottom:110px;
+}
+
+.main-section::after {
+  border-top: 1px solid #bdbdbd;
+  display: block;
+  position: relative;
+  top: -1px;
+  margin: 0 auto;
+  width: 100%;
+  content: "";
+
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #bdbdbd;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+#return_2_top {
+  text-align: right;
+  padding:10px;
+
+}
+
+@media only screen and (max-width: 480px) {
+  /* 320px — 480px: Mobile devices */
+  html, body {
+  color: ##212121;
+  background-color: #8d6e63;
+  line-height: 1;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  /* 481px — 768px: iPads, Tablets */
+  html, body {
+  color: ##212121;
+  background-color: #8d6e63;
+  line-height: 1;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* 769px — 1024px: Small screens, laptops */
+  html, body {
+  color: ##212121;
+  background-color: #8d6e63;
+  line-height: 1;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  /* 1025px — 1200px: Desktops, large screens */
+  /* current Editor */
+}
+
+@media only screen and (min-width: 1201px) {
+  /* 1201px and more —  Extra large screens, TV */
+  html, body {
+  color: ##212121;
+  background-color: #8d6e63;
+  line-height: 1;
+  }
+}
+
+
+** end of undefined **
+

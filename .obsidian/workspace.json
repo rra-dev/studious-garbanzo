@@ -1,0 +1,150 @@
+{
+  "main": {
+    "id": "c9ef89fa4e01bac9",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c1f26688cb3173a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b0b7cdfcf5037ad1",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "KanBean.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b59d0a82fe95c321",
+    "type": "split",
+    "children": [
+      {
+        "id": "22607c04d6541bb6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9cc6a5605d10766e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cfe46f74e6cce96c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#PS",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2e127f57ecb2cdcd",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "9abeb7e6fc551043",
+    "type": "split",
+    "children": [
+      {
+        "id": "ab311d8d002860c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d72dba239b3efb53",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "KanBean.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9a0d6193135cf9f1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "KanBean.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "604db88bef6b8357",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "46562e0d500e4d0e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "KanBean.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 206.5
+  },
+  "active": "b0b7cdfcf5037ad1",
+  "lastOpenFiles": [
+    "README.md",
+    "KanBean.md",
+    "WordPress.md",
+    "Goals Curriculum.md",
+    "psnotes.md",
+    "Resbasedrev.md",
+    "macadnotes.md",
+    "MSnotes.md",
+    "Wanderlist.md",
+    "nixintel-rebuild.md"
+  ]
+}
