@@ -11,23 +11,26 @@
         <!-- Using Hack Font alternate method using in CSS
         <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css">
         -->
+        <script src="https://kit.fontawesome.com/cd76e87746.js" crossorigin="anonymous"></script>
         <title>Html & CSS Notes</title>
     </head>
     <body>
-        <div class="notes">
-            <header class="title">List Notes</header>
+        <div class="misc-notes">
+            <header>Overall Notes</header>
             <ul>
-                <li>Working with items</li>
+                <li class="note bug">Working with items</li>
             </ul>
         </div>
         <div class="lessons">
             <header>freeCodecamp Lessons</header>
             <div class="lesson">
-                <div class="ferris">
+                <div class="ferris-lsn">
                     <header class="lesson">Building a Ferris Wheel</header>
-                    <ul class="lesson ferris notes">
-                        <li class="ferris">Moving animations</li>
-                        <li class="ferris">This is crazy!</li>
+                    <ul class="lesson ferris-lsn notes">
+                        <li class="note">Moving animations</li>
+                        <li class="note th-up">This is crazy!</li>
+                        <li class="note">Changed some of the colors and incorporated color variables</li>
+                        <li class="note bug">Something weird about the frame sizing</li>
                     </ul>
                     <div class="wheel">
                         <span class="line"></span>
@@ -46,21 +49,130 @@
                     </div>
                 </div>
                 <div class="penguin_lsn">
+                    <header class="lesson">Building a Waving Penguin</header>
+                    <ul class="penguin_lsn notes">
+                        <li class="note done">Not sure about the boundraries and how this is working</li>
+                        <li class="note bug">Still inconsistant with bullets</li>
+                        <li class="note done">Changed .sun from absolute to relative - screw it removing maountains and sun and ground</li>
+                    </ul>
                     <div class="penguin_bd">
+                        <!--
                         <div class="left-mountain"></div>
-                        <div class="back-mountain"></div>
-                        <div class="sun"></div>
+                        <div class="back-mountain bug"></div>
+                        <div class="sun bug"></div>
+                        -->
                         <div class="penguin">
                             <div class="penguin-head">
                                 <div class="face left"></div>
                                 <div class="face right"></div>
                                 <div class="chin"></div>
-                                <div class="eye right"></div>
-                                <div class="eye left"></div>
+                                <div class="eye right">
+                                    <div class="eye-lid"></div>
+                                </div>
+                                <div class="eye left">
+                                    <div class="eye-lid"></div>
+                                </div>
+                                <div class="blush right"></div>
+                                <div class="blush left"></div>
+                                <div class="beak top"></div>
+                                <div class="beak bottom"></div>
                             </div>
-                            <div class="penguin-body"></div>
+                            <div class="shirt">
+                                <div>💜</div>
+                                <p>I CSS</p>
+                            </div>
+                            <div class="penguin-body">
+                                <div class="arm left"></div>
+                                <div class="arm right"></div>
+                                <div class="foot left"></div>
+                                <div class="foot right"></div>
+                            </div>
                         </div>
+                        <!--
                         <div class="ground"></div>
+                        -->
+                    </div>
+                </div>
+                <div class="Psn-portfolio-fcc">
+                    <header class="lesson">Build a Personal Portfolio Webpage</header>
+                    <ol class="objectives">
+                        <li class="done">Your portfolio should have a welcome section with an <code>id</code> of <code>welcome-section</code></li>
+                        <li class="done">The welcome section should have an <code>h1</code> element that contains text</li>
+                        <li class="done">Your portfolio should have a projects section with an <code>id</code> of <code>projects</code></li>
+                        <li class="done">The projects section should contain at least one element with a <code>class</code> of <code>project-tile</code> to hold a project</li>
+                        <li>The projects section should contain at least one link to a project</li>
+                        <li class="done">Your portfolio should have a navbar with an id of <code>navbar</code></li>
+                        <li>The navbar should contain at least one link that you can click on to navigate to different sections of the page</li>
+                        <li class="done">Your portfolio should have a link with an id of <code>profile-link</code>, which opens your GitHub or freeCodeCamp profile in a new tab</li>
+                        <li>Your portfolio should have at least one media query</li>
+                        <li>The height of the welcome section should be equal to the height of the viewport</li>
+                        <li>The navbar should always be at the top of the viewport</li>
+                        <li class="sub-note">Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!</li>
+                        <li class="sub-note"><em>Note:</em> Be sure to add <code>&ltlink rel="stylesheet" href="styles.css"&gt</code> in your HTML to link your stylesheet and apply your CSS</li>
+                        <li class="sub-note">Example page <a href="https://personal-portfolio.freecodecamp.rocks/">https://personal-portfolio.freecodecamp.rocks</a></li>
+                        <li class="sub-note bug">Adding notes like this change the <code>&ltli&gt</code> numbering</li>
+                    </ol> 
+                    <nav id="navbar" class="nav">
+                        <ul class="nav-list">
+                            <li>Logo</li>
+                            <li><a href="_blank">Target 1</a></li>
+                            <li><a href="_blank">Target 2</a></li>
+                            <li><a href="_blank">Target 3</a></li>
+                        </ul>
+                    </nav>
+                    <div class="portfolio-bd">
+                        <section class="welcome-section">
+                            <h1>Title</h1>
+                            <p>Text about me</p>
+                        </section>
+                        <section id="projects">
+                            <h2 class="projects-header">Projects</h2>
+                            <div class="project-grid">
+                                <a href="_blank" target="_blank" class="project project-tile">
+                                    <img class="project-image" src="_blank" alt="project" />
+                                    <p class="project-tile">Project Title</p>
+                                </a>
+                                <a href="_blank" target="_blank" class="project project-tile">
+                                    <img class="project-image" src="_blank" alt="project" />
+                                    <p class="project-tile">Project Title</p>
+                                </a>
+                                <a href="_blank" target="_blank" class="project project-tile">
+                                    <img class="project-image" src="_blank" alt="project" />
+                                    <p class="project-tile">Project Title</p>
+                                </a>
+                                <a href="_blank" target="_blank" class="project project-tile">
+                                    <img class="project-image" src="_blank" alt="project" />
+                                    <p class="project-tile">Project Title</p>
+                                </a>
+                                <a href="_blank" target="_blank" class="project project-tile">
+                                    <img class="project-image" src="_blank" alt="project" />
+                                    <p class="project-tile">Project Title</p>
+                                </a>
+                                <a href="_blank" target="_blank" class="project project-tile">
+                                    <img class="project-image" src="_blank" alt="project" />
+                                    <p class="project-tile">Project Title</p>
+                                </a>
+                            </div>
+                            <a href="_blank" class="btn btn-show-all" target="_blank">Show All<i class="icon"></i></a>
+                        </section>
+                        <section id="contact" class="contact-section">
+                            <div class="contact-header">
+                                <h2>uber title</h2>
+                                <p>subtext</p>
+                            </div>
+                            <div class="contact-links">
+                                <a id="profile-link" href="_blank" target="_blank" class="btn contact-details">
+                                    <i class="icon"></i> Github</a>
+                                <a href="_blank" target="_blank" class="btn contact-details">
+                                    <i class="icon"></i> freeCodeCamp</a>
+                                <a href="_blank" target="_blank" class="btn contact-details">
+                                    <i class="icon"></i> Email popup</a>
+                                <a href="_blank" target="_blank" class="btn contact-details">
+                                    <i class="icon"></i> Mastodon</a>
+                                <a href="_blank" target="_blank" class="btn contact-details">
+                                    <i class="icon"></i> Twitter</a>
+                            </div>
+                        </section>
                     </div>
                 </div>
             </div>
