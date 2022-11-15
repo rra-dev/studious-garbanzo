@@ -383,3 +383,57 @@ li.sub-note {
   background: linear-gradient(90deg, rgb(88, 175,236), rgb(182, 255, 255));
   z-index: 3;
   position: relative;margin-top: -58px;}
+/* Build a Personal Portfolio Webpage */
+.Psn-portfolio-fcc {
+  --nav-bkgd: purple;
+  --nav-txt: green;
+  --welcome-bkgd: linen;
+  --welcome-h1-txt: darkgrey;
+  --welcome-txt: var(--welcome-h1-txt);
+  --project-bkgd1: blue;
+  --project-bkgd2: darkblue;
+  --project-txt: yellow;
+  --project-h2: white;
+  --contact-bkgd: darkred;
+  --contact-h2: pink;
+  --contact-txt: var(--contact-h2);
+  --footer-bkgd: darkgrey;
+  --disclaimer-txt: darkred;
+  --copyright-txt: black;
+}
+
+.nav {
+  display: flex;
+  /* Change position to keep at top of page*/
+  /* position: fixed; */
+  position:relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--nav-bkgd);
+  height: 65px;
+  justify-content: flex-end;
+
+}
+#nav-img {
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px;
+}
+.nav-list {
+  display: flex;
+  height: 50px;
+  position: relative;
+  margin-left: 50px;
+  justify-content: center;
+  
+}
+.nav-list a {
+  display:inline-block;
+  font-size: 1.25em;
+  color: var(--nav-txt);
+  padding: .5em;
+  text-decoration: none;
+}
