@@ -56,6 +56,8 @@ kanban-plugin: basic
 - [ ] [README](README.md)
 - [ ] [Formal Learning Plan](Formal%20Learning%20Plan%20@{20220912}.md)<br>    [x] Build Resume Based Review [RBR](Resbasedrev.md)<br>    [ ] Build [Goals Curriculum](Goals%20Curriculum.md)<br>    [ ] Build [Wanderlist](Wanderlist.md)
 - [ ] [RBR](Resbasedrev.md) review @{20220914} #RBR<br>    [ ] [Solarwinds](Solarwinds.md) <br>    [ ] [Infoblox](Infoblox.md)
+- [ ] [[HTBAcad|Hack the Box Academy]]
+- [ ] [[Honu|Honu Rebuild]]
 
 
 ## Complete
