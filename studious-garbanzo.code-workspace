@@ -5,6 +5,9 @@
 		}
 	],
 	"settings": {
-		"workbench.colorTheme": "Apparently Purple"
+		"workbench.colorTheme": "Apparently Purple",
+		"vim.digraphs": {
+		
+		}
 	}
 }
