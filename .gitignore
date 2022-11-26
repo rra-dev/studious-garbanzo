@@ -7,8 +7,9 @@
 
 # Ignore obsidian workspace
 
-.obsidian/workspace
+.obsidian/workspace*
 
 #ignore Microsoft SDL Documentation
 rsc/Simplified\ Implementation\ of\ the\ SDL.doc
 rsc/Simplified SDL_Spreadsheet.xlsx
+
