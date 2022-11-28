@@ -44,7 +44,7 @@ kanban-plugin: basic
 
 ## Planning (5)
 
-- [ ] [Goals Curriculum](Goals%20Curriculum.md) to [KanBean](KanBean.md)
+- [ ] [Goals](Goals.md) to [KanBean](KanBean.md)
 - [ ] [Wanderlist](Wanderlist.md) to [KanBean](KanBean.md)
 - [ ] [Issue 21 ](obsidian://shell-commands/?vault=studious-garbanzo&execute=262pfp9ome&_gh_repo1=rra-dev/studious-garbanzo&_gh_issue9=1)<br>    How to pull issues and work on them?
 - [ ] [RBR](Resbasedrev.md) Based review 3 a day @{20220915}<br>    [ ] [F5 Web Application Firewall](WAFnotes.md) <em>#RBR/FW</em>
@@ -54,10 +54,11 @@ kanban-plugin: basic
 ## Active (3)
 
 - [ ] [README](README.md)
-- [ ] [Formal Learning Plan](Formal%20Learning%20Plan%20@{20220912}.md)<br>    [x] Build Resume Based Review [RBR](Resbasedrev.md)<br>    [ ] Build [Goals Curriculum](Goals%20Curriculum.md)<br>    [ ] Build [Wanderlist](Wanderlist.md)
+- [ ] [Formal Learning Plan](Formal%20Learning%20Plan%20@{20220912}.md)<br>    [x] Build Resume Based Review [RBR](Resbasedrev.md)<br>    [ ] Build [Goals](Goals.md)<br>    [ ] Build [Wanderlist](Wanderlist.md)
 - [ ] [RBR](Resbasedrev.md) review @{20220914} #RBR<br>    [ ] [Solarwinds](Solarwinds.md) <br>    [ ] [Infoblox](Infoblox.md)
 - [ ] [[HTBAcad|Hack the Box Academy]]
 - [ ] [[Honu|Honu Rebuild]]
+- [ ] [freeCodeCamp](fcc.md)
 
 
 ## Complete

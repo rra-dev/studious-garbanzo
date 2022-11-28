@@ -1,6 +1,0 @@
----
-tags:
- - RBR
----
-
-# macOS Administration

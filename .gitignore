@@ -9,10 +9,11 @@
 
 .obsidian/workspace*
 
-#ignore Microsoft SDL Documentation
-rsc/Simplified\ Implementation\ of\ the\ SDL.doc
-rsc/Simplified SDL_Spreadsheet.xlsx
-<<<<<<< HEAD
-=======
+# Ignore Obisdian Graph Setting
 
->>>>>>> refs/remotes/origin/main
+.obsidian/graph.json
+
+#ignore Microsoft SDL Documentation
+*.doc
+*.xls
+*.xlsx
