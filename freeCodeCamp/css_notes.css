@@ -400,6 +400,13 @@ li.sub-note {
   --footer-bkgd: darkgrey;
   --disclaimer-txt: darkred;
   --copyright-txt: black;
+  --bebop-brd: #333333;
+  --bebop-cmt-bkgd: #999999;
+  --bebop-cmt-txt: #99CC66;
+  --bebop-h1-bkgd: white;
+  --bebop-h1-txt: red;
+  --bebop-pre-bkgd: #993300;
+  --bebop-pre-txt: black;
 }
 
 .nav {
@@ -436,4 +443,38 @@ li.sub-note {
   color: var(--nav-txt);
   padding: .5em;
   text-decoration: none;
+}
+.welcome-section {
+  background-color: var(--welcome-bkgd);
+}
+.bebop {
+  font-family: "Rubik Vinyl";
+  text-align: center;
+  font-size: 4em;
+}
+.bebop-holder {
+  border: solid 3em var(--welcome-bkgd);
+  background: var(--bebop-h1-bkgd);
+  padding: none;
+}
+.bebop2 {
+  font-family: "Rubik Glitch";
+  text-align: center;
+  font-size: 10em;
+  line-height: 0em;
+  font-weight: regular;
+  color: var(--bebop-h1-txt);
+
+}
+.bebop3  {
+  font-family: "Hack"; 
+  border: solid 1px var(--bebop-brd);
+  background: var(--bebop-cmt-bkgd);
+  padding: 6em;
+}
+.bebop4  {
+  font-family: "Rubik Burned"; 
+}
+.bebop5  {
+  font-family: "Rubik Glitch";
 }

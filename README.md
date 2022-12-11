@@ -6,7 +6,7 @@ Changing this to be more general studying and notes
 This section was initially used for Todos now please refer to KanBean
 ```
 1. Figure out branching in git -> [Issue 21 ](obsidian://shell-commands/?vault=studious-garbanzo&execute=262pfp9ome&_gh_repo1=rra-dev/studious-garbanzo&_gh_issue9=1)
-
+2. Shortcut to [Shortcuts](obsidian://open?vault=.bear&file=notes%2Fkybdshx)
 
 ## Notes
 
