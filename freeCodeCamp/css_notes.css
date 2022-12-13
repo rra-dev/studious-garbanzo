@@ -387,9 +387,9 @@ li.sub-note {
 .Psn-portfolio-fcc {
   --nav-bkgd: purple;
   --nav-txt: green;
-  --welcome-bkgd: linen;
-  --welcome-h1-txt: darkgrey;
-  --welcome-txt: var(--welcome-h1-txt);
+  --nav-hov: red;
+  --welcome-bkgd: #999999;
+  --welcome-txt: black;
   --project-bkgd1: blue;
   --project-bkgd2: darkblue;
   --project-txt: yellow;
@@ -400,13 +400,53 @@ li.sub-note {
   --footer-bkgd: darkgrey;
   --disclaimer-txt: darkred;
   --copyright-txt: black;
-  --bebop-brd: #333333;
   --bebop-cmt-bkgd: #999999;
-  --bebop-cmt-txt: #99CC66;
-  --bebop-h1-bkgd: white;
+  --bebop-cmt-txt: var(--welcome-txt);
+  --bebop-h1-bkgd: var(--welcome-bkgd);
   --bebop-h1-txt: red;
-  --bebop-pre-bkgd: #993300;
-  --bebop-pre-txt: black;
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+    /* Set font size for easy rem calculations
+   * default document font size = 16px, 1rem = 16px, 100% = 16px
+   * (100% / 16px) * 10 = 62.5%, 1rem = 10px, 62.5% = 10px
+   * I like this! makes it a little easier!
+  */
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+/* Tried to Search Common resolution sizes and it is a clusterfuck of information
+ * I am just going to use the ones from freeCodeCamp
+ * ʕ•ᴥ•ʔ
+*/
+
+/* 1200px / 16px = 75em */
+@media (max-width: 75em) {
+  .Psn-portfolio-fcc {
+    font-size: 60%;
+  }
+}
+
+/* 980px / 16px = 61.25em */
+@media (max-width: 61.25em) {
+  .Psn-portfolio-fcc {
+    font-size: 58%;
+  }
+}
+
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+  .Psn-portfolio-fcc {
+    font-size: 55%;
+  }
+}
+
+.portfolio-bd {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 1.8rem; 
+  font-weight: 400;
+  line-height: 1.4;
 }
 
 .nav {
@@ -418,63 +458,99 @@ li.sub-note {
   left: 0;
   width: 100%;
   background: var(--nav-bkgd);
-  height: 65px;
   justify-content: flex-end;
+  z-index: 4;
 
 }
 #nav-img {
-  height: 50px;
+  height: 3.6rem;
   position: absolute;
-  top: 0;
-  left: 0;
-  padding: 5px;
+  top: .1rem;
+  left: .1rem;
+
 }
 .nav-list {
   display: flex;
-  height: 50px;
   position: relative;
-  margin-left: 50px;
+  margin-left: 5rem;
   justify-content: center;
   
 }
 .nav-list a {
-  display:inline-block;
-  font-size: 1.25em;
+  display:block;
+  font-size: 2.2rem;
+  font-weight:900;
   color: var(--nav-txt);
-  padding: .5em;
+  padding: 0 1rem;
   text-decoration: none;
 }
+
+@media (max-width: 28.75em) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-list {
+    margin: 0 1rem 0 4rem;
+  }
+  #nav-img {
+  height: .9rem;
+  position: absolute;
+  top: .1rem;
+  left: .1rem;
+  }
+  .nav-list a {
+  font-size: 1rem;
+  }
+}
+
+
+.nav-list a:hover {
+  background: var(--nav-hov);
+}
+
 .welcome-section {
   background-color: var(--welcome-bkgd);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 .bebop {
-  font-family: "Rubik Vinyl";
+  font-family: "Rubik Burned";
   text-align: center;
-  font-size: 4em;
+  font-size: 4rem;
+  padding: 0 8rem;
 }
-.bebop-holder {
-  border: solid 3em var(--welcome-bkgd);
-  background: var(--bebop-h1-bkgd);
-  padding: none;
-}
+
 .bebop2 {
   font-family: "Rubik Glitch";
   text-align: center;
-  font-size: 10em;
-  line-height: 0em;
-  font-weight: regular;
+  font-size: 8rem;
+  font-weight: 100;
   color: var(--bebop-h1-txt);
+  background: var(--bebop-h1-bkgd);
 
 }
 .bebop3  {
   font-family: "Hack"; 
-  border: solid 1px var(--bebop-brd);
   background: var(--bebop-cmt-bkgd);
-  padding: 6em;
+  color: var(--bebop-cmt-txt);
+  padding: 0 10rem;
 }
-.bebop4  {
-  font-family: "Rubik Burned"; 
+
+@media (max-width: 28.75em) {
+  .bebop {
+    font-size: 2rem;
+    padding: 0;
+  }
+  
+  .bebop2 {
+    font-size: 4rem;
+    padding: 0;
+  }
+  .bebop3  {
+    padding: 0 1rem;
+  }
 }
-.bebop5  {
-  font-family: "Rubik Glitch";
-}
+
