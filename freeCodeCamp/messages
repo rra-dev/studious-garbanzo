@@ -1,0 +1,218 @@
+2020-04-21 09:55:55 [SYSLOG]: start BusyBox v1.12.1
+2020-04-21 09:55:56 [MLD]: mrib_mld_source: failed to detect local source address on 14
+2020-04-21 09:55:56 [MLD]: mrib_mld_source: failed to detect local source address on 16
+2020-04-21 09:55:56 [MLD]: mrib_mld_source: failed to detect local source address on 17
+2020-04-21 09:56:00 [MLD]: mld: ignoring invalid MLD-message of type 143 from :: on 0
+2020-04-21 09:56:17 [MLD]: mld: ignoring invalid MLD-message of type 143 from :: on 0
+2020-04-21 09:56:17 [RC]: RC start
+2020-04-21 09:56:18 [RC]: Wan(eth3) Disconnect
+2020-04-21 09:56:18 [MLD]: mld: ignoring invalid MLD-message of type 143 from :: on 0
+2020-04-21 09:56:18 ipsec_setup: ...Openswan IPsec stopped
+2020-04-21 09:56:18 [RC]: Current Wan interface is eth3 , mode is dhcp
+2020-04-21 09:56:18 [RC]: Wan(eth3) Disconnect
+2020-04-21 09:56:18 [MLD]: mrib_mld_source: failed to detect local source address on 14
+2020-04-21 09:56:18 [MDNS]: mDNSPlatformSendUDP got error 126 (Cannot assign requested address) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 10.42.42.1/br0/14
+2020-04-21 09:56:19 [RC]: Wan(eth3) Disconnect
+2020-04-21 09:56:19 [MLD]: mrib_mld_source: failed to detect local source address on 14
+2020-04-21 09:56:19 ipsec_setup: ...Openswan IPsec stopped
+2020-04-21 09:56:19 [MLD]: mrib_mld_source: failed to detect local source address on 14
+2020-04-21 09:56:19 ipsec_setup: ...Openswan IPsec stopped
+2020-04-21 09:56:19 [MLD]: mrib_mld_source: failed to detect local source address on 14
+2020-04-21 09:56:20 [MDNS]: mDNSPlatformSendUDP got error 128 (Network is unreachable) sending packet to 224.0.0.251 on interface 10.42.42.1/br0/14
+2020-04-21 09:56:20 [MDNS]: mDNSPlatformSendUDP got error 128 (Network is unreachable) sending packet to FF02:0000:0000:0000:0000:0000:0000:00FB on interface 10.42.42.1/br0/14
+2020-04-21 09:56:21 [RC]: Current Wan interface is eth3 , mode is dhcp
+2020-04-21 09:56:21 [RC]: Wan(eth3) Disconnect
+2020-04-21 09:56:21 [MLD]: mrib_mld_source: failed to detect local source address on 14
+2020-04-21 09:56:21 ipsec_setup: ...Openswan IPsec stopped
+2020-04-21 09:56:21 [MLD]: mrib_mld_source: failed to detect local source address on 14
+              total         used         free       shared      buffers
+  Mem:       121052        90932        30120            0            0
+ Swap:            0            0            0
+Total:       121052        90932        30120
+  PID USER       VSZ STAT COMMAND
+    1 admin     4784 R    /sbin/preinit 
+    2 admin        0 SW   [kthreadd]
+    3 admin        0 SW   [ksoftirqd/0]
+    4 admin        0 SW   [kworker/0:0]
+    5 admin        0 SW<  [kworker/0:0H]
+    6 admin        0 SW   [kworker/u8:0]
+    7 admin        0 SW   [migration/0]
+    8 admin        0 SW   [rcu_bh]
+    9 admin        0 SW   [rcu_sched]
+   10 admin        0 SW   [migration/1]
+   11 admin        0 SW   [ksoftirqd/1]
+   12 admin        0 SW   [kworker/1:0]
+   13 admin        0 SW<  [kworker/1:0H]
+   14 admin        0 SW   [migration/2]
+   15 admin        0 SW   [ksoftirqd/2]
+   16 admin        0 SW   [kworker/2:0]
+   17 admin        0 SW<  [kworker/2:0H]
+   18 admin        0 SW   [migration/3]
+   19 admin        0 SW   [ksoftirqd/3]
+   20 admin        0 SW   [kworker/3:0]
+   21 admin        0 SW<  [kworker/3:0H]
+   22 admin        0 SW<  [khelper]
+   23 admin        0 SW   [kdevtmpfs]
+   24 admin        0 SW<  [netns]
+   25 admin        0 SW<  [writeback]
+   26 admin        0 SW<  [bioset]
+   27 admin        0 SW<  [kblockd]
+   28 admin        0 SW   [khubd]
+   29 admin        0 SW   [kworker/3:1]
+   30 admin        0 SW   [kworker/2:1]
+   31 admin        0 SW   [kworker/1:1]
+   32 admin        0 SW   [kworker/0:1]
+   33 admin        0 SW   [kswapd0]
+   34 admin        0 SWN  [ksmd]
+   35 admin        0 SW   [fsnotify_mark]
+   36 admin        0 SW<  [crypto]
+   43 admin        0 SW   [kworker/u8:1]
+   48 admin        0 SW<  [deferwq]
+   49 admin        0 SWN  [jffs2_gcd_mtd6]
+   55 admin     1112 S    tw_hotplug 
+   61 admin     5596 S    nvram_daemon 
+  432 admin     3972 S    stad 1 
+  434 admin     3976 S    stad 2 
+  447 admin     4784 S    /sbin/preinit 
+  527 admin      944 S    nl_server -i br0 -s borisberg -s borisbergDC81 -s bor
+  528 admin      932 S    nl_server -i br0 -s borisberg -s borisbergDC81 -s bor
+  555 admin     4884 S    /bin/lighttpd -f /etc_ro/lighttpd/lighttpd.conf -m /e
+  556 admin     5568 S    /bin/prog.cgi 
+  569 admin     1700 S    syslogd -L 
+  620 admin        0 SW   [RtmpCmdQTask]
+  621 admin        0 SW   [RtmpWscTask]
+  622 admin        0 SW   [HwCtrlTask]
+  623 admin        0 SW   [ser_task]
+  624 admin        0 SW   [kworker/0:2]
+  637 admin        0 SW   [RtmpMlmeTask]
+  638 admin        0 SW   [kworker/0:3]
+  651 admin     1464 S    bndstrg2 -i rai0 -i ra0 
+ 1278 admin     1320 S    mDNSResponder -b -i br0 -f /tmp/mdns_resp.conf -e dli
+ 1366 admin     4148 S    timer 
+ 1899 admin     1032 S    radvd -m none -C /tmp/radvd.conf 
+ 1900 admin     2036 S    dhcp6s -c /tmp/dhcp6s.conf -k /tmp/dhcp6sctlkey br0 
+ 1909 admin      968 S    udhcpc -i eth3 -p wan_wan0_status -s /tmp/wan_udhcpc 
+ 1922 admin     2460 S    zebra -u admin -g admin -f /tmp/zebra.conf -d 
+ 1929 admin     2112 S    ripd -u admin -g admin -f /tmp/ripd.conf -d 
+ 1936 admin     1428 S    dnsmasq -C /tmp/dnsmasq.conf -6 /tmp/dnsmasq_dhcp_eve
+ 1937 admin     1420 S    dnsmasq -C /tmp/dnsmasq.conf -6 /tmp/dnsmasq_dhcp_eve
+ 1940 admin     1032 S    odhcp6c -df -R -s /tmp/dhcp6c -N try -c 00030001ecade
+ 1943 admin     1412 S    /sbin/pppoe-relay -S eth3 -C br0 
+ 2112 admin      980 S    omcproxy -e3 eth3 br0 br2 br3 scope=realm 
+ 2487 admin     1704 S    sh -c ps >> /etc_ro/lighttpd/www/web/messages 
+ 2488 admin     1704 R    ps 
+br0       Link encap:Ethernet  HWaddr EC:AD:E0:ED:DC:81  
+          inet addr:10.42.42.1  Bcast:10.42.42.255  Mask:255.255.255.0
+          inet6 addr: fe80::eead:e0ff:feed:dc81/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3573 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4487 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:375498 (366.6 KiB)  TX bytes:3146173 (3.0 MiB)
+
+br1       Link encap:Ethernet  HWaddr EC:AD:E0:ED:DC:85  
+          inet addr:192.168.7.1  Bcast:192.168.7.255  Mask:255.255.255.0
+          inet6 addr: fe80::2843:67ff:fe98:8327/64 Scope:Link
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:408 (408.0 B)
+
+br2       Link encap:Ethernet  HWaddr EC:AD:E0:ED:DC:86  
+          inet6 addr: fe80::7852:d8ff:fe39:70b2/64 Scope:Link
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:7 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:638 (638.0 B)
+
+br3       Link encap:Ethernet  HWaddr EC:AD:E0:ED:DC:87  
+          inet6 addr: fe80::4022:4fff:fe51:b41a/64 Scope:Link
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:6 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:568 (568.0 B)
+
+eth2      Link encap:Ethernet  HWaddr EC:AD:E0:ED:DC:81  
+          inet6 addr: fe80::eead:e0ff:feed:dc81/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3246 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:5755 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:379144 (370.2 KiB)  TX bytes:3449885 (3.2 MiB)
+          Interrupt:3 
+
+eth2.1    Link encap:Ethernet  HWaddr EC:AD:E0:ED:DC:81  
+          inet6 addr: fe80::eead:e0ff:feed:dc81/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:395 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:81051 (79.1 KiB)
+
+eth2.2    Link encap:Ethernet  HWaddr EC:AD:E0:ED:DC:81  
+          inet6 addr: fe80::eead:e0ff:feed:dc81/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:395 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:81051 (79.1 KiB)
+
+eth2.3    Link encap:Ethernet  HWaddr EC:AD:E0:ED:DC:81  
+          inet6 addr: fe80::eead:e0ff:feed:dc81/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:395 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:81051 (79.1 KiB)
+
+eth2.4    Link encap:Ethernet  HWaddr EC:AD:E0:ED:DC:81  
+          inet6 addr: fe80::eead:e0ff:feed:dc81/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3221 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4544 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:319003 (311.5 KiB)  TX bytes:3182259 (3.0 MiB)
+
+eth3      Link encap:Ethernet  HWaddr EC:AD:E0:ED:DC:84  
+          inet6 addr: fe80::eead:e0ff:feed:dc84/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:2 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:34 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:172 (172.0 B)  TX bytes:5348 (5.2 KiB)
+
+imq0      Link encap:UNSPEC  HWaddr 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  
+          UP RUNNING NOARP  MTU:16000  Metric:1
+          RX packets:4097 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4099 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:11000 
+          RX bytes:3055468 (2.9 MiB)  TX bytes:3055600 (2.9 MiB)
+
+imq1      Link encap:UNSPEC  HWaddr 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  
+          UP RUNNING NOARP  MTU:16000  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:11000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:3 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:204 (204.0 B)  TX bytes:204 (204.0 B)
+
+ra0       Link encap:Ethernet  HWaddr EC:AD:E0:ED:DC:82  
+          inet6 addr: fe80::eead:e0ff:feed:dc82/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:756 errors:359 dropped:0 overruns:0 frame:0
+          TX packets:190 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:84671 (82.6 KiB)  TX bytes:25809 (25.2 KiB)
+          Interrupt:4 
+
