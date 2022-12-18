@@ -116,7 +116,9 @@ li.sub-note {
   text-decoration: line-through;
 }
 
+
 /* Building a Ferris Wheel */
+@media all {
 .ferris-lsn {
   height:fit-content;
   background-color: var(--ferris-bkgd);
@@ -200,7 +202,9 @@ li.sub-note {
   100% {
     transform: rotate(-360deg);    }}
 /* End Ferris Wheel */
+  }
 /* Building a Penguin */
+@media all {
 .penguin_lsn {
   --penguin-face: white;
   --penguin-picorna: orange;
@@ -384,14 +388,16 @@ li.sub-note {
   z-index: 3;
   position: relative;margin-top: -58px;}
 /* End Penguin */
+}
 /* Build a Personal Portfolio Webpage */
+@media all {
 .Psn-portfolio-fcc {
-  --nav-bkgd: purple;
-  --nav-txt: green;
-  --nav-hov: red;
+  --nav-bkgd: #663399;
+  --nav-txt: Black;
+  --nav-hov: white;
   --welcome-bkgd: #999999;
-  --welcome-txt: black; 
-  --project-bkgd1: blue;
+  --welcome-txt: rgb(46, 45, 45); 
+  --project-bkgd1: rgb(75, 58, 90);
   --project-bkgd2: darkblue;
   --project-txt: yellow;
   --project-h2: white;
@@ -461,8 +467,6 @@ li.sub-note {
   margin-left: 5rem;
   margin-right: 1rem;}
 .nav-list a {
-  /* Not sure how to make this highlight the entire block like in the example
-  */
   display:block;
   font-weight:900;
   color: var(--nav-txt);
@@ -486,7 +490,7 @@ li.sub-note {
   font-size: 1rem;
   }}
 .nav-list a:hover {
-  background: var(--nav-hov);}
+  color: var(--nav-hov);}
 .welcome-section {
   background-color: var(--welcome-bkgd);
   display: flex;
@@ -504,11 +508,14 @@ li.sub-note {
   font-size: 8rem;
   font-weight: 100;
   color: var(--bebop-h1-txt);
-  background: var(--bebop-h1-bkgd);}
+  background: var(--bebop-h1-bkgd);
+  padding: 1rem;
+  border: solid black 1rem}
 .bebop3  {
   font-family: "Hack", sans-serif; 
   background: var(--bebop-cmt-bkgd);
   color: var(--bebop-cmt-txt);
+  font-size: .8rem;
   padding: 0 10rem;}
 @media (max-width: 28.75em) {
   .bebop {
@@ -659,3 +666,4 @@ footer {
   color: var(--copyright-txt);
 }
 /* End Portfolio Project */
+}
