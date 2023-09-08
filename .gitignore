@@ -5,13 +5,9 @@
 
 *.xmind
 
-# Ignore obsidian workspace
+# Ignore obsidian folders
 
-.obsidian/workspace*
-
-# Ignore Obisdian Graph Setting
-
-.obsidian/graph.json
+.obsidian/
 
 #ignore Microsoft SDL Documentation
 *.doc
